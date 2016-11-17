@@ -24,5 +24,5 @@ PredictionDistribution.jpg: Prediction Distribution Comparison Plots
 #Reference
 kaggle imdb movie dataset [link][1]  
 feature selection: boruta [link][2]
-[1]: 
-[2]: 
+[1]: https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset
+[2]: https://www.analyticsvidhya.com/blog/2016/03/select-important-variables-boruta-package/
