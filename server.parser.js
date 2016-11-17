@@ -14,7 +14,7 @@ function parser(e, res, body){
     $('.title_wrapper').filter(function(){
         var data = $(this);
             //title = data.children().first().text();
-            title =  $('.title_wrapper h1').text().replace(/\(\d+\)/g,"").replace(/\s/g,"");    
+            title =  $('.title_wrapper h1').text().replace(/\(\d+\)/g,"").replace(/\s\s+/g,"");   
             release = $('#titleYear').children().first().text();
 
             json.title = title;
@@ -33,7 +33,7 @@ function parser(e, res, body){
 
     $('.plot_summary ').filter(function(){
         var data = $(this);
-        director = data.children().first().next().children().first().next().text().replace(/\n/g,"");
+        director = data.children().first().next().children().first().next().text().replace(/\n/g,"").replace(/\s\s+/g,"");
         star1=data.children().first().next().next().next().children().first().next().children().first().text();
         star2=data.children().first().next().next().next().children().first().next().next().children().first().text();
         star3=data.children().first().next().next().next().children().first().next().next().next().children().first().text();
