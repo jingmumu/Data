@@ -15,10 +15,10 @@ movie_metadata.csv:original data set
 movie_clean.csv: cleaned data set  
 cleandata.r: File used to clean data  
 featureSelection.r:  File used to select top important features  
-featureselectionresult.png: plot of important features
+featureselectionresult.png: plot of important features  
 regressionmodeling.r: regression modeling file using sequentially sampling method  
 regressionmodelingrandomsampling.r: regression modeling file using random sampling method  
-RegressionResult.txt: Regression Result(MSE)
+RegressionResult.txt: Regression Result(MSE)  
 PredictionDistributionplots.png: Prediction Distribution Comparison Plots    
 MSE comparison.png: Result comparison histgram   
 
