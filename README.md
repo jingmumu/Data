@@ -18,9 +18,9 @@ At the same time, output movie data to a json file.
 Finally, I got the output.json to store all top movie data, including movie title, movie release year, movie director, movies cast stars, duration time, budget, and gross.
 
 #Files explanation
-server.js: main js file
-server.pool.js: Request Pool to send request one by one
-server.parser.js: File used to scrape DOM information using useful selectors. Important thing is that I use regular expressions to process some informal texts.
+>server.js: main js file
+>server.pool.js: Request Pool to send request one by one
+>server.parser.js: File used to scrape DOM information using useful selectors. Important thing is that I use regular expressions to >process some informal texts.
 
 #Code samples
 ```
@@ -37,8 +37,8 @@ $('.title_wrapper').filter(function(){
 ```
 
 #Reference
-Ningyi Zhou Git Hub [link][1]
-imdb website [link][2]
+>Ningyi Zhou Git Hub [link][1]
+>imdb website [link][2]
 [1]: https://github.com/zhouningyi/full_stack_demos
 [2]: http://www.imdb.com/chart/top?ref_=nv_mv_250_6
 
