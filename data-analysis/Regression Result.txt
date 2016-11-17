@@ -1,0 +1,89 @@
+
+All numeric features
+10 Fold cross validation
+Sequencially sampling(10%test+90%train)
+use MSE value to evaluate
+
+KNN Regression
+> mean(mseknn)
+[1] 1.35563
+
+Multiple Linear Model
+> mean(mselm)
+[1] 1.200737
+
+Regression Tree
+> mean(msert)
+[1] 0.984422
+
+Random Forest(ntree=500, sequentially*10 folds)
+> mean(mserf)
+[1] 0.7231942
+
+
+Top five important features after feature selection
+10 Fold cross validation
+Sequencially sampling(10%test+90%train)
+use MSE value to evaluate
+
+KNN Regression
+> mean(mseknn)
+[1] 1.321698
+
+Multiple Linear Model
+> mean(mselm)
+[1] 1.152313
+
+Regression Tree
+> mean(msert)
+[1] 0.9899315
+
+Random Forest(ntree=500, sequentially*10 folds)
+> mean(mserf)
+[1] 0.8052255
+
+
+
+All numeric features
+10 Fold cross validation
+Randomly sampling(10%test+90%train)
+use MSE value to evaluate
+
+KNN Regression
+> mean(mseknn)
+[1] 1.304668
+
+Multiple Linear Model
+> mean(mselm)
+[1] 0.8497854
+
+Regression Tree:
+> mean(msert)
+[1] 0.8759713
+
+Random Forest(ntree=500, randomly sampling*10 folds)
+> mean(mserf)
+[1] 0.5764662
+
+
+
+Top five important features after feature selection
+10 Fold cross validation
+Randomly sampling(10%test+90%train)
+use MSE value to evaluate
+
+KNN Regression
+> mean(mseknn)
+[1] 0.8562305
+
+Multiple Linear Model
+> mean(mselm)
+[1] 0.8157103
+
+Regression Tree:
+> mean(msert)
+[1] 0.7602917
+
+Random Forest(ntree=500, randomly sampling*10 folds)
+> mean(mserf)
+[1] 0.6360894
