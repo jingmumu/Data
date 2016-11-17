@@ -7,7 +7,7 @@ date: "November 16,2016"
 
 #Description
 After scraping data from imdb, I tried to use R to analyze the data.  
-But since my data is just a little, I used the complete data set from kaggle to do regression analysis.
+But since my data is just a little, I used the complete data set from kaggle to do regression analysis.  
 Independent Variable: imdb_score
 
 #Files explanation
