@@ -22,7 +22,7 @@ RegressionResult.txt: Regression Result(MSE)
 PredictionDistribution.jpg: Prediction Distribution Comparison Plots 
 
 #Reference
-kaggle imdb movie dataset [link][1]
+kaggle imdb movie dataset [link][1]  
 feature selection: boruta [link][2]
 [1]: 
 [2]: 
