@@ -1,6 +1,6 @@
 ---
 title: "Imdb Movie Analyzing Project"
-author: "Jing Hua"
+author: "JH"
 date: "November 16,2016"
 ---
 
