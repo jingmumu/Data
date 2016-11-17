@@ -1,6 +1,6 @@
 ---
 title: "Imdb Movie Scraping Project"
-author: "Jing Hua"
+author: "JH"
 date: "November 16,2016"
 ---
 
