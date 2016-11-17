@@ -19,7 +19,8 @@ featureselectionresult.png: plot of important features
 regressionmodeling.r: regression modeling file using sequentially sampling method  
 regressionmodelingrandomsampling.r: regression modeling file using random sampling method  
 RegressionResult.txt: Regression Result(MSE)
-PredictionDistributionplots.png: Prediction Distribution Comparison Plots 
+PredictionDistributionplots.png: Prediction Distribution Comparison Plots    
+MSE comparison.png: Result comparison histgram   
 
 #Reference
 kaggle imdb movie dataset [link][1]  
